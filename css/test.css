@@ -72,5 +72,7 @@ nav ul li ul a:hover {
 }
 
 /*Don't Delete*/
-/*portfolio cards*/
-
+/*wedding images*/
+.wedding-images img {
+  margin: 10px;
+}
