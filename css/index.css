@@ -1,0 +1,55 @@
+:root {
+  --site-color-01: #c13584;
+  --site-color-01-however: #9e2f6e;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: color #1a253a;
+  background-image: url(../images/backgraund-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .hero-intro h1 {
+  font-size: 96px;
+  line-height: 106px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+main a {
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+main .hero-quotes p {
+  border-left: 4px solid var(--site-color-01);
+  padding-left: 20px;
+  margin: 40px 0;
+}
+main .hero-quotes p:nth-child(2) {
+  margin-left: 100px;
+}
+main .hero-intro {
+  position: relative;
+  right: 15vh;
+  padding-bottom: 8vh;
+}
+
+main .hero-quotes {
+  position: relative;
+  left: 4vh;
+  padding-bottom: 8vh;
+}
