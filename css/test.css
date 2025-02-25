@@ -6,7 +6,7 @@
 h1 {
   font-size: 26px;
   line-height: 32px;
-  color: #FFF;
+  color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -24,7 +24,6 @@ a {
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  
 }
 
 .header-main {
@@ -108,3 +107,73 @@ a {
   transform: scale(1.2);
 }
 /* do not delete Above this point */
+.index-category {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.index-category p {
+  color: #111;
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.index-category-box {
+  width: 200px;
+  height: 200px;
+  background-color: #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.index-category-box:nth-child(2) {
+  background-image: url(/weddings/brittany-and-damien/wedding4.jpg);
+}
+
+.index-category-box:nth-child(3) {
+  background-image: url(/Promnight/Promnight72.jpg);
+}
+
+.index-category-box:nth-child(4) {
+  background-image: url(/Familypictures/family5.jpg);
+}
+
+.index-category-box:nth-child(5) {
+  background-image: url(/A-bar\ rodeo\ and\ tough\ trucks/rodeo11.jpg);
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.index-category-box:hover .dark-overlay {
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.index-category-box h3 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-shadow: -2px 2px 4px #000;
+  z-index: 100;
+}
