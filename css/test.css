@@ -1,30 +1,4 @@
-/*#074f57;
- #f3f3f3;
- #1e1e1e;
-*/
 /* NAV and header*/
-h1 {
-  font-size: 26px;
-  line-height: 32px;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-p {
-  font-size: 14px;
-  line-height: 18px;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-  font-size: 14px;
-  line-height: 18px;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  cursor: pointer;
-}
 
 .header-main {
   width: 100%;
@@ -32,6 +6,7 @@ a {
   background-color: #074f57;
   display: flex;
   justify-content: space-between;
+  border-bottom: 5px solid #1e1e1e;
 }
 
 .header-main-logo {
@@ -107,7 +82,72 @@ a {
   transform: scale(1.2);
 }
 /* do not delete Above this point */
-.index-category {
+
+/* Hero section */
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #1a253a;
+  background-image: url(../images/backgraund-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-intro h2 {
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 96px;
+  line-height: 106px;
+}
+
+.hero-intro p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero-intro a {
+  font-size: 18px;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.hero-intro a:hover {
+  background-color: var(--site-color-02-however);
+}
+
+.hero-quotes p {
+  border-left: 4px solid var(--site-color-01);
+  /*border-radius: 10px;*/
+  padding-left: 20px;
+  margin: 40px 0;
+}
+
+.hero-quotes p:nth-child(2) {
+  margin-left: 100px;
+}
+
+.hero-intro {
+  position: relative;
+  right: 20vh;
+  padding-bottom: 8vh;
+}
+
+.hero-quotes {
+  position: relative;
+  left: 4vh;
+  padding-bottom: 8vh;
+}
+index-category {
   width: 100%;
   padding: 60px 0;
   background-color: #fff;
