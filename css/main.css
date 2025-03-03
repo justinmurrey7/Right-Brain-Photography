@@ -3,7 +3,17 @@
   --site-color-01: #c13584;
   --site-color-02-however: #9e2f6e;
 }
+
 h1 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h2 {
   font-size: 26px;
   line-height: 32px;
   color: #fff;
@@ -14,7 +24,7 @@ h1 {
 
 p {
   font-size: 14px;
-  line-height: 18px;
+  line-height: 30px;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,6 +82,7 @@ a {
   line-height: 60px;
   color: #f3f3f3;
   display: block;
+  text-transform: uppercase;
 }
 
 .header-main-nav ul li a:hover {
@@ -109,4 +120,120 @@ a {
 
 .header-main-in:hover {
   transform: scale(1.2);
+}
+/*footer*/
+.footer-main {
+  width: 100%;
+  height: 100%;
+  border-top: 4px solid #000;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d4753;
+  color: #f3f3f3;
+}
+
+.wrapper-main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-wrapper-main {
+  display: flex;
+  color: #3d4753;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.testimonial {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f3f3f3;
+  color: #3d4753;
+}
+
+.testimonial p {
+  color: #3d4753;
+}
+
+.testimonial,
+.wrapper-main,
+h2 {
+  color: #3d4753;
+}
+
+.footer-main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-testimonial {
+  flex-basis: 25%;
+  display: block;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-testimonial img {
+  width: 40%;
+  align-items: center;
+}
+.footer-testimonial h2 {
+  color: #3d4753;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 20px 0;
+}
+
+.footer-testimonial p {
+  padding: 20px;
+  margin: 20px;
+}
+
+.footer-sitemap {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.footer-sitemap a {
+  line-height: 30px;
+}
+
+.footer-sitemap ul:nth-child(1) {
+  border-left: 2px solid #c13584;
+  padding: 20px;
+  margin: 20px;
+}
+
+.footer-sitemap ul:nth-child(1),
+.footer-sitemap ul:nth-child(2) {
+  padding: 20px;
+  margin: 20px;
+  flex-basis: 180px;
+  color: #3d4753;
+  text-transform: uppercase;
+}
+
+.footer-sitemap ul:nth-child(3) {
+  flex-basis: 340px;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 20px;
+}
+
+.footer-sitemap ul:nth-child(4) {
+  flex-grow: 1;
+
+  margin: 20px;
+}
+
+.footer-sitemap ul:nth-child(4) li {
+  clear: both;
+  float: right;
+  text-transform: uppercase;
+}
+
+.footer-sitemap p {
+  text-transform: uppercase;
+  color: #f3f3f3;
 }

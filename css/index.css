@@ -1,2 +1,227 @@
-/* Hero image*/
+/* Hero section */
 
+.hero {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #1a253a;
+  background-image: url(../images/backgraund-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 130px;
+  border-top: 3px solid #000;
+}
+
+.hero-intro h2 {
+  color: #fff;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 96px;
+  line-height: 106px;
+}
+
+.hero-intro p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-intro a {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.hero-intro a:hover {
+  background-color: var(--site-color-02-however);
+}
+
+.hero-quotes p {
+  border-left: 4px solid var(--site-color-01);
+  color: #fff;
+  padding-left: 20px;
+  margin: 40px 0;
+}
+
+.hero-quotes p:nth-child(2) {
+  margin-left: 100px;
+}
+
+.hero-intro {
+  padding-bottom: 8vh;
+}
+
+.hero-quotes {
+  padding-bottom: 8vh;
+}
+
+/* category section*/
+.index-category {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.index-category p {
+  text-align: center;
+  padding-bottom: 40px;
+  flex-basis: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.index-category h3 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.index-category-box {
+  width: 200px;
+  height: 200px;
+  background-color: #111;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.index-category-box:nth-child(2) {
+  background-image: url(/weddings/brittany-and-damien/wedding4.jpg);
+}
+
+.index-category-box:nth-child(3) {
+  background-image: url(/Promnight/Promnight72.jpg);
+}
+
+.index-category-box:nth-child(4) {
+  background-image: url(/Familypictures/family5.jpg);
+}
+
+.index-category-box:nth-child(5) {
+  background-image: url(/A-bar\ rodeo\ and\ tough\ trucks/rodeo11.jpg);
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1a253a;
+  opacity: 0.5;
+}
+
+.index-category-box:hover .dark-overlay {
+  opacity: 0;
+  transition: all ease-in-out 200ms;
+}
+
+.index-category-box h3 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-shadow: -2px 2px 4px #000;
+  z-index: 100;
+}
+
+/* about section */
+.about-section {
+  width: 100%;
+  padding: 60px 0;
+  color: #fff;
+  background-color: #1a253a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.about-img img {
+  width: 300px;
+  border-radius: 300px;
+}
+
+.about-text {
+  flex-basis: 455px;
+}
+
+.about-text p {
+  padding: 20px 0;
+  color: aliceblue;
+}
+
+.about-text h2 {
+  color: #fff;
+}
+
+.about-text a {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  background-color: var(--site-color-01);
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.about-text a:hover {
+  background-color: var(--site-color-02-however);
+}
+
+.about-skills {
+  flex-basis: 350px;
+  color: #fff;
+}
+
+.about-skills-bar {
+  width: calc(100% - 8px);
+  height: 20px;
+  border: 4px solid #0b0f16;
+}
+
+.about-skills-bar-fill {
+  height: 100%;
+  background-color: var(--site-color-01);
+}
+
+.photography {
+  width: 95%;
+}
+.videographer {
+  width: 60%;
+}
+
+.audio {
+  width: 65%;
+}
+
+.ps {
+  width: 90%;
+}
+
+.lr {
+  width: 85%;
+}
+
+.id {
+  width: 75%;
+}
